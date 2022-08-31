@@ -7,5 +7,7 @@ echo "Enter Value c"
 read c
 
 result=$(( a * b + c ))
-
 echo "result is="$result
+
+result2=$(( $a * $b + $c))
+echo "result2 is="$result2
