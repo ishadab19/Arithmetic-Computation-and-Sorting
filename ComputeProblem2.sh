@@ -6,7 +6,7 @@ read b
 echo "Enter Value c"
 read c
 
-result=$(( a * b + c ))
+result1=$(( $a * $b + $c ))
 echo "result is="$result
 
 result2=$(( $a * $b + $c))
